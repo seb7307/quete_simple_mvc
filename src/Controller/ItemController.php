@@ -3,10 +3,20 @@
  * Created by PhpStorm.
  */
 
+namespace Controller;
 
 // src/Controller/ItemController.php
-require __DIR__ . '/../Model/ItemManager.php';
 
-$items = selectAllItems();
+use Model;
 
-require __DIR__ . '/../View/item.php';
+class ItemController
+{
+    public function index(){
+        $itemManager = new Model\ItemManager();
+        $item=$itemManager->selectAllItems();
+        require __DIR__ . '/../View/item.php';
+        return $item;
+    }
+}
+
+

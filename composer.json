@@ -1,0 +1,15 @@
+{
+    "name": "seb/quete_simple_mvc",
+    "authors": [
+        {
+            "name": "seb7307",
+            "email": "boutigny.sebastien73@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "": "src/"
+        }
+    }
+}
