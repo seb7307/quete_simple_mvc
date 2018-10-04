@@ -1,8 +1,7 @@
 <?php
 
-require __DIR__ . '/../vendor/autoload.php';
+require __DIR__ . '/../vendor/autoload.php';// envoi vers l'autoload
 
-$ItemController = new Controller\ItemController();
-$ItemController-> index();
+require __DIR__ . '/../app/Dispatcher.php';// envoi vers le dispatcher
 
 ?>

@@ -1,38 +1,34 @@
 <?php
 /**
  * Created by PhpStorm.
+ * User: seb
+ * Date: 04/10/18
+ * Time: 15:20
  */
-// src/Model/ItemManager.php
-
 
 namespace Model;
 
 require __DIR__ . '/../../app/db.php';
 
-class ItemManager{
-
-    public function selectAllItems()
-        {
-            $pdo = new \PDO(DSN, USER, PASS);
-            $query = "SELECT * FROM item";
-            $res = $pdo->query($query);
-            return $res->fetchAll();
-        }
-
-    public function selectOneItem(int $id)
+class CategorieManager
+{
+    public function selectAllCategorie()
     {
         $pdo = new \PDO(DSN, USER, PASS);
-        $query = "SELECT * FROM item WHERE id = :id";
+        $query = "SELECT * FROM categorie";
+        $res = $pdo->query($query);
+        return $res->fetchAll();
+    }
+
+    public function selectOneCategorie(int $id)
+    {
+        $pdo = new \PDO(DSN, USER, PASS);
+        $query = "SELECT * FROM categorie WHERE id = :id";
         $statement = $pdo->prepare($query);
         $statement->bindValue(':id', $id, \PDO::PARAM_INT);
         $statement->execute();
         // contrairement à fetchAll(), fetch() ne renvoie qu'un seul résultat
         return $statement->fetch();
     }
+}
 
-    }
-
-
-
-
-?>
