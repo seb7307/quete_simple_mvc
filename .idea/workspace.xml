@@ -1,22 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="588e4ddd-c8bf-4bb4-9a9f-48caef539875" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Dispatcher.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/routing.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Controller/CategorieController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Controller/ItemController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Model/CategorieManager.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Model/ItemManager.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/View/categorie.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/View/item.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/View/layout.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/View/showCategorie.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/View/showItem.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/db.php.dist" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.php" afterDir="false" />
-    </list>
+    <list default="true" id="588e4ddd-c8bf-4bb4-9a9f-48caef539875" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -253,12 +238,12 @@
       <updated>1539098783175</updated>
       <workItem from="1539098785733" duration="17185000" />
       <workItem from="1539237599482" duration="13260000" />
-      <workItem from="1539264300657" duration="593000" />
+      <workItem from="1539264300657" duration="843000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31038000" />
+    <option name="totallyTimeSpent" value="31288000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
