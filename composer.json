@@ -1,0 +1,19 @@
+{
+  "name": "seb/quete_simple_mvc",
+  "description": "quetes mvc",
+  "authors": [
+    {
+      "name": "seb7307",
+      "email": "boutigny.sebastien73@gmail.com"
+    }
+  ],
+  "require": {
+    "nikic/fast-route": "^1.3",
+    "twig/twig": "^2.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "": "src/"
+    }
+  }
+}
