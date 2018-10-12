@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="588e4ddd-c8bf-4bb4-9a9f-48caef539875" name="Default Changelist" comment="" />
+    <list default="true" id="588e4ddd-c8bf-4bb4-9a9f-48caef539875" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,11 +61,11 @@
     <session id="-1453032222">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
-          <entry key="project.open.time.11" value="1" />
+          <entry key="project.closed" value="4" />
+          <entry key="project.open.time.11" value="2" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -209,7 +211,7 @@
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="database.console.LAST_STATE" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../CodingScams" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
@@ -238,12 +240,13 @@
       <updated>1539098783175</updated>
       <workItem from="1539098785733" duration="17185000" />
       <workItem from="1539237599482" duration="13260000" />
-      <workItem from="1539264300657" duration="843000" />
+      <workItem from="1539264300657" duration="1180000" />
+      <workItem from="1539328969974" duration="165000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31288000" />
+    <option name="totallyTimeSpent" value="31790000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -258,7 +261,7 @@
     <frame x="67" y="25" width="1533" height="875" extended-state="6" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.19569603" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.19838601" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info active="true" anchor="bottom" id="Terminal" order="0" sideWeight="0.49902913" visible="true" weight="0.37449664" />
       <window_info anchor="bottom" id="Database Changes" order="1" />
